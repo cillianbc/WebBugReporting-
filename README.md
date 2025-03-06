@@ -1,4 +1,4 @@
-# Trello Integration Chrome Extension
+# Trello Integrated Bug Reporting Extension for Chrome
 
 This Chrome extension allows you to create Trello cards and add attachments directly from your browser.
 
