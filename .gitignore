@@ -1,0 +1,27 @@
+# Ignore configuration files with secrets
+config.js
+.env
+*.pem
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore node modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor specific files
+.idea/
+.vscode/
+*.sublime-*
+
+# Ignore Chrome extension packaging files
+*.crx
+*.zip

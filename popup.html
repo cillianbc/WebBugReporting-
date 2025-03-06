@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>Bug Reporter</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 16px;
+      color: #172b4d;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .main-button {
+      width: 100%;
+      padding: 10px;
+      background: #0079BF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .main-button:hover {
+      background: #026AA7;
+    }
+
+    .contact-link {
+      font-size: 12px;
+      color: #6B778C;
+      text-decoration: none;
+      display: block;
+      margin-top: 15px;
+    }
+
+    .contact-link:hover {
+      color: #172b4d;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/kneat-logo.png" alt="Kneat Logo" class="logo">
+  <h1>Kneat Website Bug Reporting Tool</h1>
+  <button id="startCapture" class="main-button">Click Element to Report Bug</button>
+  <a href="mailto:cillian.bracken-conway@kneat.com?subject=Bug Reporter Extension Issue" class="contact-link">Report an issue with this tool</a>
+  <script src="popup.js"></script>
+</body>
+</html>
